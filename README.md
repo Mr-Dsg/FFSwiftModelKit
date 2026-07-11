@@ -17,7 +17,7 @@ A lightweight and high-performance Swift model mapping framework built with Runt
 ```swift
 dependencies: [
     .package(
-        url: "...",
+        url: "https://github.com/Mr-Dsg/FFSwiftModelKit.git",
         from: "1.0.0"
     )
 ]

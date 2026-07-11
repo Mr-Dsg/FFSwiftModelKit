@@ -1,0 +1,93 @@
+# ==========================================================
+# FFSwiftModelKit
+# Git Ignore
+# ==========================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+.build/
+DerivedData/
+*.xcworkspace
+!Package.xcworkspace
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.xcscmblueprint
+
+# SwiftPM
+.swiftpm/
+Package.resolved
+
+# CocoaPods（如果以后 Demo 用）
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# Archives
+*.xcarchive
+
+# Debug
+*.dSYM
+*.dSYM.zip
+
+# Logs
+*.log
+
+# Coverage
+*.profdata
+*.profraw
+coverage/
+DerivedSources/
+
+# Temporary
+*.tmp
+*.swp
+*.swo
+*~
+
+# Finder
+.Trashes
+.fseventsd
+
+# IDE
+.idea/
+.vscode/
+
+# Playground
+timeline.xctimeline
+playground.xcworkspace
+
+# Test Cache
+.xctestplan
+
+# Benchmark
+Benchmark/.build/
+Benchmark/DerivedData/
+
+# Local Config
+.env
+.env.*
+
+# Package Cache
+/.build
+
+# Generated Documentation
+docs/
+
+# Symbol Graph
+*.symbols.json
+
+# Swift Package Plugins
+.plugin-workspace/
